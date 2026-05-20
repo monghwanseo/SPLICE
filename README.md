@@ -4,19 +4,19 @@ Replication code for "The Stablecoin Margin Convenience Yield and the Equilibriu
 
 ```
 code/
-├── settings.py           run configuration
-├── econometrics.py       shared estimators
-├── plot_style.py         matplotlib style
-├── render_paper.py       generates all paper tables and figures
-├── 01_data/              raw-data fetchers and panel builder
-└── 02_experiments/       31 numbered experiment scripts
+├── settings.py           config
+├── econometrics.py       estimators
+├── plot_style.py         plot style
+├── render_paper.py       tables and figures
+├── 01_data/              data fetchers
+└── 02_experiments/       experiment scripts
 
 data_raw/
-├── bitfinex/   USDT/USDC US-dollar spot
-├── binance/    8 cryptoassets: perpetuals, spot, funding
-├── bybit/      8 cryptoassets: funding
-├── bitstamp/   DAI/USD spot
-└── aave/       Aave V3 stablecoin lending APY
+├── bitfinex/   USDT/USDC spot
+├── binance/    perpetuals, spot, funding
+├── bybit/      funding
+├── bitstamp/   DAI spot
+└── aave/       stablecoin lending APY
 ```
 
 ## Contact
