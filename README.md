@@ -4,7 +4,7 @@ Replication code for "The Stablecoin Margin Convenience Yield and the Equilibriu
 
 ```
 code/
-├── settings.py           run configuration (seed, paths, events)
+├── settings.py           run configuration
 ├── econometrics.py       shared estimators
 ├── plot_style.py         matplotlib style
 ├── render_paper.py       generates all paper tables and figures
