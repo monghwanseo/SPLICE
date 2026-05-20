@@ -19,6 +19,10 @@ data_raw/
 └── aave/       stablecoin lending APY
 ```
 
+## Data and license note
+
+The MIT License applies only to the source code. Raw exchange and lending data remain subject to the original data providers' policies.
+
 ## Contact
 
 monghwanseo@yonsei.ac.kr
